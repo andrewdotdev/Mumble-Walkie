@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "mbradio",
+	"version": "${version}",
+	"name": "Mumble Radio",
+	"description": "MBRadio is a Fabric mod that adds a voice radio system with Mumble integration. Use physical in-game radios to talk to other players, with realistic sounds when transmitting and receiving. Immersive communication in Minecraft! 🎙️📻",
+	"authors": [
+		"andrewdotdev!"
+	],
+	"contact": {
+		"sources": "https://github.com/andrewdotdev/mb-radio"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mbradio/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.andrewdotdev.mbradio.MumbleRadio"
+		],
+		"fabric-datagen": [
+			"com.andrewdotdev.mbradio.MumbleRadioDataGenerator"
+		],
+		"client": [
+			"com.andrewdotdev.mbradio.MumbleRadioClient"
+		]
+	},
+	"mixins": [
+		"mbradio.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.11",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
