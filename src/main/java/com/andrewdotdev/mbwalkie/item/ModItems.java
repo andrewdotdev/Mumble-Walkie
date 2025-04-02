@@ -13,10 +13,9 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item WALKIE_TALKIE = register("walkie_talkie", new Item.Settings());
 
-    private static Item register(String name, Item.Settings itemSettings) {
-        Identifier id = Identifier.of(MumbleWalkie.MOD_ID, name);
-        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, id);
-        Item.Settings settings = itemSettings.registryKey(key);
+    private static Item register(String name, Item.Settings itemsettings) {
+        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MumbleWalkie.MOD_ID, name));
+        Item.Settings settings = itemsettings.registryKey(key);
 
         return Registry.register(Registries.ITEM, key, new Item(settings));
     }
