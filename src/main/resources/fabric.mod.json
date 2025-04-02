@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "mbradio",
+	"id": "mbwalkie",
 	"version": "${version}",
-	"name": "Mumble Radio",
-	"description": "MBRadio is a Fabric mod that adds a voice radio system with Mumble integration. Use physical in-game radios to talk to other players, with realistic sounds when transmitting and receiving. Immersive communication in Minecraft! 🎙️📻",
+	"name": "Mumble Walkie",
+	"description": "MBWalkie is a Fabric mod that adds a voice radio system with Mumble integration. Use physical in-game walkie talkies to talk to other players, with realistic sounds when transmitting and receiving. Immersive communication in Minecraft! 🎙️📻",
 	"authors": [
 		"andrewdotdev!"
 	],
 	"contact": {
-		"sources": "https://github.com/andrewdotdev/mb-radio"
+		"sources": "https://github.com/andrewdotdev/Mumble-Walkie"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/mbradio/icon.png",
+	"icon": "assets/mbwalkie/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.andrewdotdev.mbradio.MumbleRadio"
+			"com.andrewdotdev.mbwalkie.MumbleWalkie"
 		],
 		"fabric-datagen": [
-			"com.andrewdotdev.mbradio.MumbleRadioDataGenerator"
+			"com.andrewdotdev.mbwalkie.MumbleWalkieDataGenerator"
 		],
 		"client": [
-			"com.andrewdotdev.mbradio.MumbleRadioClient"
+			"com.andrewdotdev.mbwalkie.MumbleWalkieClient"
 		]
 	},
 	"mixins": [
-		"mbradio.mixins.json"
+		"mbwalkie.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.11",

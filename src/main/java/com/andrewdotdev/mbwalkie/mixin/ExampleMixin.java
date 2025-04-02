@@ -1,4 +1,4 @@
-package com.andrewdotdev.mbradio.mixin;
+package com.andrewdotdev.mbwalkie.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

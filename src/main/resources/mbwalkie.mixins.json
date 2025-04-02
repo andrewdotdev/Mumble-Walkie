@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.andrewdotdev.mbradio.mixin",
+	"package": "com.andrewdotdev.mbwalkie.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
