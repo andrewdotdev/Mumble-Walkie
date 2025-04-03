@@ -1,5 +1,7 @@
 package com.andrewdotdev.mbwalkie;
 
+import com.andrewdotdev.mbwalkie.commands.WalkieCommands;
+import com.andrewdotdev.mbwalkie.config.ConfigManager;
 import com.andrewdotdev.mbwalkie.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -11,6 +13,8 @@ public class MumbleWalkie implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ConfigManager.loadConfig();
+		WalkieCommands.register();
 		ModItems.registerModItems();
 		LOGGER.info("Mumble Walkie initialized!");
 	}
