@@ -6,7 +6,6 @@ Mumble Walkie is a Minecraft Modification for Fabric that brings real-time voice
 - **Walkie-Talkie Item:** A custom item that players can hold in their hands to communicate with others.
 - **Real-time Voice Chat:** Integrates with Mumble to enable voice chat between players within the proximity of the radio signal.
 - **Sound Effects:** Realistic radio sound effects such as static, tuning, and voice transmission when interacting with the radio.
-- **Mumble Server Configuration:** Players can configure the Mumble server directly from within Minecraft.
 - **Voice Proximity:** Volume and voice distance are adjusted based on the player's position in the game world.
 - **Interference Sounds:** When there is a storm, rain, or snow, players will hear radio interference to add to the immersion.
 - **Easy Setup:** Configure your Mumble server and connection settings with ease, allowing for a smooth and intuitive setup.
