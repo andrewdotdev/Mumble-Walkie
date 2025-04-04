@@ -50,14 +50,12 @@ public class ClientEvents {
         playSound(client, "mbwalkie:walkie_start");
         MumbleClient.startTalking();
         System.out.println("🎙️ Started Talking...");
-        // Aquí deberías conectarlo con Mumble o el sistema de voz
     }
 
     private static void stopTalking(MinecraftClient client) {
         playSound(client, "mbwalkie:walkie_end");
         MumbleClient.stopTalking();
         System.out.println("📻 Stopped Talking.");
-        // Aquí desconectas el audio
     }
 
     private static void playSound(MinecraftClient client, String soundId) {
