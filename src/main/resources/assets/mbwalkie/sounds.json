@@ -1,0 +1,11 @@
+{
+  "walkie_start": {
+    "sounds": ["mbwalkie:walkie_start"]
+  },
+  "walkie_end": {
+    "sounds": ["mbwalkie:walkie_end"]
+  },
+  "walkie_static": {
+    "sounds": ["mbwalkie:walkie_static"]
+  }
+}

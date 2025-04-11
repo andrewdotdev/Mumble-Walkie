@@ -32,7 +32,9 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
+
+	modImplementation "net.java.dev.jna:jna:5.17.0"
+
 }
 
 processResources {
